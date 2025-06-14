@@ -6,6 +6,14 @@ export default function Spacing() {
       <div className="flex justify-center items-center p-4 border-2 border-black border-solid">
         div
       </div>
+
+      <div className="flex justify-center items-center bg-emerald-800 text-gray-200 p-10 rounded-xl border-2  border-black border-solid">
+        div
+      </div>
+
+      <div className="flex justify-center items-center bg-amber-800 text-gray-200 p-10 rounded-full border-2  border-black border-solid">
+        div
+      </div>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import Animation from "./components/Animation";
 import Font from "./components/Fonts";
 import Positioning from "./components/Positioning";
 import Spacing from "./components/Spacing";
@@ -11,6 +12,8 @@ export default function App() {
       <Font />
 
       <Spacing />
+
+      <Animation />
     </div>
   );
 }
