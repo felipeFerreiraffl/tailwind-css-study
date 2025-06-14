@@ -1,9 +1,16 @@
+import Font from "./components/Fonts";
+import Positioning from "./components/Positioning";
+import Spacing from "./components/Spacing";
 import "./index.css";
 
 export default function App() {
   return (
-    <div className="flex justify-center items-center flex-col">
-      <p className="text-base font-bold">Texto</p>
+    <div className="flex justify-center items-center m-10 flex-col gap-28">
+      <Positioning />
+
+      <Font />
+
+      <Spacing />
     </div>
   );
 }
